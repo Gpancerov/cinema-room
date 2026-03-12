@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+  color: white;
+}
+
+.header__logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}

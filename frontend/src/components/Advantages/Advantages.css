@@ -1,0 +1,55 @@
+/* Основной блок */
+.advantages {
+  padding: 80px 20px;
+  background: url('https://i.siteapi.org/aDtlEHGhOGrikHrNH-vys2Dr2cA=/fit-in/900x1000/center/top/filters:format(png)/s2.siteapi.org/2f68456cbab7406/gallery/1l51mccekxz40scw00k4gcgg48go48') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Заголовок */
+.advantages__title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+/* Сетка карточек */
+.advantages__grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Карточки */
+.advantages__card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 20px;
+  border-radius: 15px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Hover-анимация */
+.advantages__card:hover {
+  transform: translateY(-8px); /* поднятие карточки */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* тень глубже */
+}
+
+/* Заголовок карточки */
+.advantages__card-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Текст карточки */
+.advantages__card p {
+  font-size: 16px;
+  line-height: 1.5;
+}

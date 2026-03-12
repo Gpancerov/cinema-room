@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+  color: white;
+}
+
+.header__logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ABOUT */
+
+.about {
+  padding: 80px 20px;
+  text-align: center;
+  background: white;
+}
+
+.about__title {
+  font-size: 36px;
+}
+
+.about__text {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+/* GALLERY */
+
+.gallery {
+  padding: 80px 20px;
+  background: #eee;
+}
+
+.gallery__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery__grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery__image {
+  border-radius: 10px;
+}
+
+.reviews {
+  margin-bottom: 20px;
+}
+
+/* BOOKING */
+
+#booking {
+  padding: 80px 10px; /* больше верхнего и нижнего отступа */
+  background-color: #f5f5f5; /* контраст с предыдущими блоками */
+}
+
+.booking__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
+.footer {
+  padding-top: 10px;
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+.fade-in {
+
+  opacity: 0;
+
+  transform: translateY(20px);
+
+  animation: fadeIn 1s forwards;
+
+}
+
+@keyframes fadeIn {
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+}
